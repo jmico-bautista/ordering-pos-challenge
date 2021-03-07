@@ -23,7 +23,8 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://localhost/posbang-proj/public/';
+	// public $baseURL = 'http://localhost/posbang-proj/public/';
+	public $baseURL = 'https://ordering-sys-challenge.herokuapp.com/';
 
 	/**
 	 * --------------------------------------------------------------------------

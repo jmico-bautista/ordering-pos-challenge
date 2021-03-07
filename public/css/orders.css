@@ -16,6 +16,7 @@
     float: left;
     margin: 10px;
     width: 18rem;
+    height: 50vh;
 }
 
 #homepage_orders_template .list-group {

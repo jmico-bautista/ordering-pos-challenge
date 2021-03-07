@@ -1,0 +1,127 @@
+#homepage_menu_list_template {
+    display: inline-flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.template_components--summary {
+    width: 40%;
+    background-color: #212529;
+    padding: 14px;
+}
+
+.template_components--summary .no_orders {
+    text-align: center;
+}
+
+.template_components--summary .is_hidden {
+    display: none;
+}
+
+.template_components--summary .sub_total,
+.template_components--summary tfoot {
+    text-align: right;
+}
+
+.template_components--menu {
+    width: 60%;
+    background-color: #30363c;
+}
+
+.template_components--menu .menu_category--title{
+    color: #FFFFFF;
+    padding: 10px;
+    background: #212529;
+}
+
+.template_components--menu .menu_category--items {
+    padding: 10px;
+}
+
+.template_components--menu .product {
+    width: 15rem;
+    padding: 8px;
+    display: inline-block;
+    height: 6rem;
+    margin: 1rem;
+}
+
+.template_components--menu .hide_actions {
+    display: none;
+}
+
+.template_components--menu .menu_category_actions {
+    text-align: center;
+}
+
+.template_components--menu .menu_category_actions button i {
+    font-size: 10px;
+}
+
+.template_components--menu .product_info--price,
+.template_components--menu .product_info--tax {
+    display: none;
+}
+
+/* .template_components--menu .hide_actions {
+    display: none;
+} */
+
+/* .template_components--summary {
+    width: 25%;
+    height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: #8e9189;
+    position: relative;
+}
+
+.template_components--summary .product_sum_data--info {
+    padding: 10px;
+}
+
+.template_components--summary .name {
+    font-weight: 700;
+}
+
+.template_components--summary .column--right {
+    text-align: right;
+}
+
+.template_components--summary .overall_total_container {
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    background-color: #666764;
+}
+
+.template_components--summary .overall_total_container .row:first-child {
+    margin-bottom: 15px;
+}
+
+.template_components--summary .overall_total_container .column--left,
+.template_components--summary .overall_total_container .column--right {
+    font-weight: 700;
+}
+
+.template_components--menu {
+    overflow: auto;
+    width: 75%;
+    height: 100vh;
+}
+
+.menu_category .menu_category--items {
+    padding: 10px;
+}
+
+.menu_category .product_info--name {
+    font-weight: 700;
+}
+
+.menu_category .product_info--tax {
+    visibility: hidden;
+}
+
+.menu_category__actions .hide_actions {
+    display: none;
+} */

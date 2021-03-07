@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: inline-flex;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    cursor: pointer;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    cursor: pointer;
+}
+
+.app_component .sidebar_title, .app_component .nav .nav-item a{
+    color: #FFFFFF;
+}
+
+.app_component--sidebar {
+    width: 15%;
+}
+
+.app_component--homepage {
+    width: 85%;
+    background-color: #FFFFFF;
+}

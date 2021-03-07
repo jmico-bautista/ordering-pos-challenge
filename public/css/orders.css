@@ -1,0 +1,32 @@
+#homepage_orders_template {
+    overflow: auto;
+    height: 100vh;
+    background-color: #212529;
+}
+
+#homepage_orders_template .orders_list {
+    width: 100%;
+}
+
+#homepage_orders_template .orders_list ul li {
+    background-color: #6c757d;
+}
+
+#homepage_orders_template .order {
+    float: left;
+    margin: 10px;
+    width: 18rem;
+}
+
+#homepage_orders_template .list-group {
+    height: 35vh;
+    overflow: auto;
+}
+
+#homepage_orders_template .product .product_name {
+    font-weight: 700;
+}
+
+#homepage_orders_template .column--right {
+    text-align: right;
+}
